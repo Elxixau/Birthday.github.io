@@ -34,6 +34,10 @@ span{
 .player{
     padding: 50px;
     height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
   .wrapper{
     border: 1px solid transparent;
