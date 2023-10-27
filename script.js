@@ -214,14 +214,14 @@ Vue.component('card-component', {
     el: '#app',
     data: {
       cards: [
-        { imgSrc: 'images/1.jpg', title: 'Red paint cup', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'JPG', badgeType: 'New' },
-        { imgSrc: 'images/2.jpg', title: 'Blorange', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'PNG', badgeType: 'Trend' },
-        { imgSrc: 'images/3.jpg', title: 'Blorange', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'PNG', badgeType: 'Trend' },
-        { imgSrc: 'images/4.jpg', title: 'Blorange', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'PNG', badgeType: 'Trend' },
-        { imgSrc: 'images/5.jpg', title: 'Blorange', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'PNG', badgeType: 'Trend' },
+        { imgSrc: 'images/1.JPG', title: 'Red paint cup', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'JPG', badgeType: 'New' },
+        { imgSrc: 'images/2.JPG', title: 'Blorange', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'PNG', badgeType: 'Trend' },
+        { imgSrc: 'images/3.JPG', title: 'Blorange', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'PNG', badgeType: 'Trend' },
+        { imgSrc: 'images/4.JPG', title: 'Blorange', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'PNG', badgeType: 'Trend' },
+        { imgSrc: 'images/5.JPGg', title: 'Blorange', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'PNG', badgeType: 'Trend' },
         { imgSrc: 'images/6.jpg', title: 'Blorange', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'PNG', badgeType: 'Trend' },
         { imgSrc: 'images/7.jpg', title: 'Blorange', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'PNG', badgeType: 'Trend' },
-        { imgSrc: 'images/8.jpg', title: 'Blorange', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'PNG', badgeType: 'Trend' },
+        { imgSrc: 'images/8.JPG', title: 'Blorange', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'PNG', badgeType: 'Trend' },
         // Add other card data as needed
       ]
     }
