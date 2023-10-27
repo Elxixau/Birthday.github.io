@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Selamat Ulang Tahun!</title>
+
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="text">
+            <h1>Hello Tania</h1>
+            <p class="birthday-message text-uppercase">From Indra, glad to say <span id="birthday-span"></span></p>
+            <a href="#music" class="btn btn-primary btn-lg">TURUN YOK</a>
+        </div>
+    </div>
+
+    
+    <center>
+        <div class="player" id="music">
+            <div class="wrapper">
+                <div class="details">
+                    <div class="now-playing">PLAYING x OF y</div>
+                    <div class="track-art"></div>
+                    <div class="track-name">Track Name</div>
+                    <div class="track-artist">Track Artist</div>
+                </div>
+    
+                <div class="slider_container">
+                    <div class="current-time">00:00</div>
+                    <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+                    <div class="total-duration">00:00</div>
+                </div>
+    
+                <div class="slider_container">
+                    <i class="fa fa-volume-down"></i>
+                    <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
+                    <i class="fa fa-volume-up"></i>
+                </div>
+    
+                <div class="buttons">
+                    <div class="random-track" onclick="randomTrack()">
+                        <i class="fas fa-random fa-2x" title="random"></i>
+                    </div>
+                    <div class="prev-track" onclick="prevTrack()">
+                        <i class="fa fa-step-backward fa-2x"></i>
+                    </div>
+                    <div class="playpause-track" onclick="playpauseTrack()">
+                        <i class="fa fa-play-circle fa-5x"></i>
+                    </div>
+                    <div class="next-track" onclick="nextTrack()">
+                        <i class="fa fa-step-forward fa-2x"></i>
+                    </div>
+                    <div class="repeat-track" onclick="repeatTrack()">
+                        <i class="fa fa-repeat fa-2x" title="repeat"></i>
+                    </div>
+                </div>
+    
+                <div id="wave" class="m-5">
+                    <span class="stroke"></span>
+                    <span class="stroke"></span>
+                    <span class="stroke"></span>
+                    <span class="stroke"></span>
+                    <span class="stroke"></span>
+                    <span class="stroke"></span>
+                    <span class="stroke"></span>
+                </div>  
+            </div>
+        </div>
+    </center>
+    
+   
+
+    <section id="tentang-perpustakaan" class="about">
+        <div class="container aos-init mt-5 mb-5 aos-animate" data-aos="fade-up">
+          <div class="row content">
+            <div class="col-lg-8">
+              <p class="section-title">HALO TANIA, LAGUNYA SAMBIL DIPUTAR KAN?</p>
+              <h1 class=" mb-3">Sekali lagi, SELAMAT ULANG TAHUN YAA</h1>
+                <p class=" fs-6 opacity-50 w-70">Semoga hari ini membawa kebahagiaan dan kenangan indah dalam setiap langkahmu.</p>
+        
+                <p class=" fs-6 opacity-50 w-70">Meski mungkin kita telah berjalan arah yang berbeda, namun itu tidak mengurangi rasa penghargaan dan kebaikan hati yang masih aku simpan untukmu.</p>
+                
+                <p class=" fs-6 opacity-50 w-70">Semoga ulang tahun kali ini menjadi ulang tahun yang membawa kebahagiaan baru dalam hidupmu. Semoga setiap langkahmu dipenuhi dengan tawa, cinta, dan berjuta kenangan manis. Terima kasih atas kenangan yang telah kita bagi bersama.</p>
+                
+                <p class=" fs-6 opacity-50 w-70">Aku sekarang nggak tau kabarmu sekarang bagaimana. kalau sudah nemuin yang baru, semoga hubunganmu penuh keceriaan dan keharmonisan. Meski perasaanku masih ada, namun aku senang melihatmu bahagia.</p>
+                <p>Selamat ulang tahun lagi, dan semoga semua impian dan harapanmu menjadi kenyataan. Tetaplah tersenyum dan menjalani hidup dengan penuh semangat. Bahagia selalu untukmu.</p>
+              <a href="#app"><button class="btn btn-primary btn-animate mt-4" type="button">lanjut lagi yok</button></a></div>
+            <div class="col-lg-4 pt-4 pt-lg-0" data-aos="zoom-in-left" data-aos-duration="1500"><center><img src="images/nia.JPG" alt="Nia"  /></center></div>
+          </div>
+        </div>
+    </section>
+
+    <div id="app">
+        <div class="container">
+          <!-- For demo purpose -->
+          <div class="row py-5">
+            <div class="col-lg-12 mx-auto">
+              <div class="text-white p-5 shadow-sm rounded banner">
+                <h1 class="display-4">OUR'S MEMORY</h1>
+                <p class="lead">Ini foto aku bareng kamu, alay ya aku</p>
+                <p class="lead">Maaf masih di simpan
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <card-component v-for="(card, index) in cards" :key="index" :card="card"></card-component>
+          </div>
+        </div>
+    </div>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-U7UqNhE5WNdIPOWkT8ajlQEtxI5ZPI17EJ4On2LLVotun9nivg5Q3WnL10GY5w3P" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+
+       
+</body>
+
+</html>
