@@ -218,7 +218,7 @@ Vue.component('card-component', {
         { imgSrc: 'images/2.JPG', title: 'Blorange', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'PNG', badgeType: 'Trend' },
         { imgSrc: 'images/3.JPG', title: 'Blorange', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'PNG', badgeType: 'Trend' },
         { imgSrc: 'images/4.JPG', title: 'Blorange', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'PNG', badgeType: 'Trend' },
-        { imgSrc: 'images/5.JPGg', title: 'Blorange', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'PNG', badgeType: 'Trend' },
+        { imgSrc: 'images/5.JPG', title: 'Blorange', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'PNG', badgeType: 'Trend' },
         { imgSrc: 'images/6.jpg', title: 'Blorange', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'PNG', badgeType: 'Trend' },
         { imgSrc: 'images/7.jpg', title: 'Blorange', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'PNG', badgeType: 'Trend' },
         { imgSrc: 'images/8.JPG', title: 'Blorange', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'PNG', badgeType: 'Trend' },
