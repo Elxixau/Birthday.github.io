@@ -318,6 +318,15 @@ span{
     top: 0px;
   }
 
+  .close-section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
   @media (max-width: 768px) {
     /* Gaya untuk layar dengan lebar maksimum 768px */
     .wrapper{

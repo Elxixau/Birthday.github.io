@@ -214,14 +214,9 @@ Vue.component('card-component', {
     el: '#app',
     data: {
       cards: [
-        { imgSrc: 'images/1.JPG', title: 'Red paint cup', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'JPG', badgeType: 'New' },
-        { imgSrc: 'images/2.JPG', title: 'Blorange', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'PNG', badgeType: 'Trend' },
-        { imgSrc: 'images/3.JPG', title: 'Blorange', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'PNG', badgeType: 'Trend' },
-        { imgSrc: 'images/4.JPG', title: 'Blorange', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'PNG', badgeType: 'Trend' },
-        { imgSrc: 'images/5.JPG', title: 'Blorange', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'PNG', badgeType: 'Trend' },
-        { imgSrc: 'images/6.jpg', title: 'Blorange', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'PNG', badgeType: 'Trend' },
-        { imgSrc: 'images/7.jpg', title: 'Blorange', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'PNG', badgeType: 'Trend' },
-        { imgSrc: 'images/8.JPG', title: 'Blorange', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'PNG', badgeType: 'Trend' },
+        { imgSrc: 'https://cdn0-production-images-kly.akamaized.net/GkfcNBud4WmP4rV3StTAj_b4WY8=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3144995/original/033907000_1591350547-woman-wearing-gray-long-sleeved-shirt-and-black-black-1008000__1_.jpg', title: 'Red paint cup', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'JPG', badgeType: 'New' },
+        { imgSrc: 'https://cdn0-production-images-kly.akamaized.net/GkfcNBud4WmP4rV3StTAj_b4WY8=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3144995/original/033907000_1591350547-woman-wearing-gray-long-sleeved-shirt-and-black-black-1008000__1_.jpg', title: 'Blorange', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'PNG', badgeType: 'Trend' },
+        { imgSrc: 'https://cdn0-production-images-kly.akamaized.net/GkfcNBud4WmP4rV3StTAj_b4WY8=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3144995/original/033907000_1591350547-woman-wearing-gray-long-sleeved-shirt-and-black-black-1008000__1_.jpg', title: 'Blorange', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'PNG', badgeType: 'Trend' },
         // Add other card data as needed
       ]
     }
