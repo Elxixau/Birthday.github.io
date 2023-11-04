@@ -28,22 +28,10 @@ artist : 'GMSLive',
 music : 'music/HBD.mp3'
 },
 {
-img : 'images/fallingdown.jpg',
-name : 'Falling Down',
-artist : 'Wid Cards',
-music : 'music/fallingdown.mp3'
-},
-{
-img : 'images/faded.png',
-name : 'Faded',
-artist : 'Alan Walker',
-music : 'music/Faded.mp3'
-},
-{
-img : 'images/ratherbe.jpg',
-name : 'Rather Be',
-artist : 'Clean Bandit',
-music : 'music/Rather Be.mp3'
+img : 'https://upload.wikimedia.org/wikipedia/commons/6/63/Tiara_Andini_Photoby_JodieOctora.jpg',
+name : 'Janji Setia',
+artist : 'Tiara Andini',
+music : 'music/janji.mp3'
 }
 ];
 
@@ -214,9 +202,12 @@ Vue.component('card-component', {
     el: '#app',
     data: {
       cards: [
-        { imgSrc: 'https://cdn0-production-images-kly.akamaized.net/GkfcNBud4WmP4rV3StTAj_b4WY8=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3144995/original/033907000_1591350547-woman-wearing-gray-long-sleeved-shirt-and-black-black-1008000__1_.jpg', title: 'Red paint cup', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'JPG', badgeType: 'New' },
-        { imgSrc: 'https://cdn0-production-images-kly.akamaized.net/GkfcNBud4WmP4rV3StTAj_b4WY8=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3144995/original/033907000_1591350547-woman-wearing-gray-long-sleeved-shirt-and-black-black-1008000__1_.jpg', title: 'Blorange', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'PNG', badgeType: 'Trend' },
-        { imgSrc: 'https://cdn0-production-images-kly.akamaized.net/GkfcNBud4WmP4rV3StTAj_b4WY8=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3144995/original/033907000_1591350547-woman-wearing-gray-long-sleeved-shirt-and-black-black-1008000__1_.jpg', title: 'Blorange', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit', fileType: 'PNG', badgeType: 'Trend' },
+        { imgSrc: 'images/1.JPG', title: 'First Impression', desc: 'Kamu cantik banget pas pertama ketemu', fileType: 'JPG', badgeType: 'New' },
+        { imgSrc: 'images/2.JPG', title: 'Second Date', desc: 'Maaf ya cantik, aku nggak pintar nenangin kamu pas hpmu rusak dan kamu nangis', fileType: 'JPG', badgeType: 'Trend' },
+        { imgSrc: 'images/3.JPG', title: 'Another Date', desc: 'Kamu tetap cantik ya meskipun keliatan judes', fileType: 'JPG', badgeType: 'Trend' },
+        { imgSrc: 'images/4.JPG', title: 'OHH TUHAN YESUS', desc: 'Kok kamu cantik banget ya', fileType: 'JPG', badgeType: 'Trend' },
+        { imgSrc: 'images/6.jpg', title: 'Mam esklim gess', desc: 'Ngemixue sama kamu aja aku senang banget, capeku pas kuliah bisa hilang', fileType: 'JPG', badgeType: 'Trend' },
+        { imgSrc: 'images/8.JPG', title: 'Our First Date', desc: 'Makasih suda mau foto sama aku yang penampilannya nggak karuan ya hehe', fileType: 'JPG', badgeType: 'Trend' },
         // Add other card data as needed
       ]
     }
